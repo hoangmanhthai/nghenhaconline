@@ -1,20 +1,18 @@
 <div class="tab-movies1">
-   <h2 class="title-movies1">Phim Sex Ngẫu Nhiên</h2>
+<h2 class="cungur"><b>BẠN CÓ THỂ THÍCH ?</b></h2>
    <ul class="list-movies">
       <?php foreach ($ACAIVIPPRO->get_list("SELECT * FROM `posts` WHERE `slug` !='$slug' ORDER BY RAND() LIMIT 12") as $row) : ?>
-         <li class="item-movie">
-            <a title="<?=$row['title'];?>" href="<?=Setting('home_url');?>/<?=$row['slug'];?>.html">
-               <div class="image">
-                  <div class="movie-play">
-                     <div class="movie-thumbnail" style="background-image:url('<?=$row['images'];?>')"></div>
-                     <span class="cripple"></span><span class="view-onl"><i class="fa fa-eye" aria-hidden="true"></i> <?=formatViews($row['view']);?>
-                     </span>
-                  </div>
-               </div>
-               <div class="label"><?=categoy_name($row['category']);?></div>
-               <div class="title-movie"><?=$row['title'];?></div>
-            </a>
-         </li>
+         <div class="polok">
+      <table>
+         <tbody>
+            <tr valign="middle">
+               <td valign="top">
+                  <div style="font-size:14px;">♬ <a href="<?= Setting('home_url'); ?>/<?= $row['slug']; ?>.html" title="<?= $row['title']; ?>"><b><?= $row['title']; ?></b></a><br> Độ Dài : 2:47 | Size : 6.37 MB | Lượt nghe : <?= formatViews($row['view']); ?></div>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
          	<?php endforeach;?>
       </ul>
    </ul>

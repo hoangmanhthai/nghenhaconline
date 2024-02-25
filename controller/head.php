@@ -73,7 +73,7 @@ $images = isset($images) ? $images : Setting('images');
 </head>
 <body>
    <div class="sirah">
-      <h1 style="font-size:30px;"> <a href="/" title="Tải Nhạc Mp3 Mới Nhất Miễn Phí">TaiNhacTop.Vip</a></h1><iframe data-aa='2271792' src='//ad.a-ads.com/2271792?size=320x100' style='width:320px; height:100px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+      <h1 style="font-size:30px;"> <a href="/" title="Tải Nhạc Mp3 Mới Nhất Miễn Phí"><?= Setting('domain'); ?></a></h1><iframe data-aa='2271792' src='//ad.a-ads.com/2271792?size=320x100' style='width:320px; height:100px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
    </div>
    <div id="kevin">
       <div class="batuk">
