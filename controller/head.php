@@ -71,6 +71,7 @@ $images = isset($images) ? $images : Setting('images');
    <link rel="icon" href="https://pix1.wapkizfile.info/download/901d6a08d5575e89920ed220750fb6c0/trithuc+wapkiz+com/music-logo-creative-icon-vector-29591238-(trithuc.wapkiz.com).jpg">
    <link rel="shortcut icon" type="image/x-icon" href="https://pix1.wapkizfile.info/download/901d6a08d5575e89920ed220750fb6c0/trithuc+wapkiz+com/music-logo-creative-icon-vector-29591238-(trithuc.wapkiz.com).jpg">
 </head>
+
 <body>
    <div class="sirah">
       <h1 style="font-size:30px;"> <a href="/" title="Tải Nhạc Mp3 Mới Nhất Miễn Phí"><?= Setting('domain'); ?></a></h1><iframe data-aa='2271792' src='//ad.a-ads.com/2271792?size=320x100' style='width:320px; height:100px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
@@ -79,7 +80,7 @@ $images = isset($images) ? $images : Setting('images');
       <div class="batuk">
          <div class="mata">
             <div id="cangkem" align="center">
-               <form action="/site-search.html"> <input type="text" name="to-search" placeholder="Ca Sĩ / Tên Bài Hát. .."><input type="submit" value="Search"></form>
+               <form action="<?= Setting('home_url'); ?>/search" method="get"> <input type="text" id="keyword" type="text" name="q" placeholder="Ca Sĩ / Tên Bài Hát. .."><input type="submit" id="search-submit"></form>
             </div>
          </div>
       </div>

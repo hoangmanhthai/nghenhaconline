@@ -1,6 +1,5 @@
 <div class="tab-movies1">
 <h2 class="cungur"><b>BẠN CÓ THỂ THÍCH ?</b></h2>
-   <ul class="list-movies">
       <?php foreach ($ACAIVIPPRO->get_list("SELECT * FROM `posts` WHERE `slug` !='$slug' ORDER BY RAND() LIMIT 12") as $row) : ?>
          <div class="polok">
       <table>

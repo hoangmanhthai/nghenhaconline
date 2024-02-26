@@ -50,19 +50,9 @@ if ($row = $ACAIVIPPRO->get_row("SELECT * FROM `posts` WHERE `slug`='$slug'")) :
                   <td><?= $row['dodai']; ?></td>
                </tr>
                <tr valign="top">
-                  <td width="15%">Size</td>
-                  <td> :</td>
-                  <td>10 MB</td>
-               </tr>
-               <tr valign="top">
                   <td width="15%">Source</td>
                   <td> :</td>
                   <td>Youtube</td>
-               </tr>
-               <tr valign="top">
-                  <td width="15%">Share</td>
-                  <td> :</td>
-                  <td><a rel="nofollow" href="https://facebook.com/sharer.php?u=https://tainhactop.vip/page-view/312/SAU-LI-T-KHC-PHAN-MNH-QUNH-OST-phim-MAI.html" class="facebook" target="_blank">Facebook</a> <a rel="nofollow" href="https://twitter.com/share?url=https://tainhactop.vip/page-view/312/SAU-LI-T-KHC-PHAN-MNH-QUNH-OST-phim-MAI.html" class="twitter" target="_blank">Twitter</a></td>
                </tr>
             </tbody>
          </table> <br>

@@ -55,31 +55,6 @@
               </li>
             </ul>
           </li>
-           <li class="nav-header">Quản Lý Tools Leech</li>
-          <li class="nav-item <?=menuopen_sidebar(['xvideos','leechauto']);?>">
-            <a href="#" class="nav-link <?=active_sidebar(['xvideos','leechauto']);?>">
-                <i class="nav-icon fas fa-th-list"></i>
-              <p> Hệ thống tools
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="?action=xvideos" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Xvideos</p>
-                </a>
-              </li>
-            </ul>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="?action=leechauto" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Web dùng xvideos</p>
-                </a>
-              </li>
-            </ul>
-          </li>
           <li class="nav-header">Quản Lý Website</li>
           <li class="nav-item">
             <a href="?action=setting" class="nav-link <?=active_sidebar(['setting']);?>">

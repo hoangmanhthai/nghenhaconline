@@ -65,7 +65,7 @@ if($jquer){
                   <tbody>
                        <?php foreach ($ACAIVIPPRO->get_list("SELECT * FROM `category` ORDER BY `id` DESC ") as $row) : 
                            $id_cate = $row['id'];
-                      $total =  $ACAIVIPPRO->num_rows("SELECT * FROM `posts` WHERE `category` LIKE '%$id_cate%' OR `category_2` LIKE '%$id_cate%'")
+                      $total =  $ACAIVIPPRO->num_rows("SELECT * FROM `posts` WHERE `category` LIKE '%$id_cate%'")
                        
                        ?>
                   <tr>
